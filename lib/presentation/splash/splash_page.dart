@@ -17,7 +17,11 @@ class SplashContent extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Center(
-      child: Text('SPLASH'),
+      child: Container(
+        alignment: Alignment.center,
+        padding: const EdgeInsets.symmetric(horizontal: 40),
+        child: Image.asset('assets/images/logo_nvbs.png'),
+      ),
     );
   }
 }
